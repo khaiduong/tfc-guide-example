@@ -14,7 +14,7 @@ variable "instance_name" {
 }
 
 variable "ami_lookup" {
-  description = "NA"
-  default = "ami-03336cdd7ad1a04c2"
+  description = "Redhat image"
+  default = "ami-00b621de862a3453a"
   type = string
 }
