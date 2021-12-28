@@ -13,3 +13,8 @@ variable "instance_name" {
   default     = "Provisioned by Terraform"
 }
 
+variable "ami_lookup" {
+  description = "NA"
+  default = "ami-03336cdd7ad1a04c2"
+  type = string
+}
